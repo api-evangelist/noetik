@@ -1,7 +1,30 @@
 aid: noetik
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noetik.png
 name: Noetik
-description: Noetik is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Noetik is an AI-native biotechnology company headquartered in South San
+  Francisco, California, focused on discovering and developing cancer therapies
+  with machine learning. The company has assembled one of the largest multimodal
+  tumor datasets and trained foundation models (including its OCTO world model
+  for cancer biology) to represent tumor microenvironments and simulate spatial
+  biology with virtual cells. Its platform spans human data generation,
+  foundation models, and therapeutic applications aimed at enriching clinical
+  trials, repositioning drugs to the right patient populations, and discovering
+  novel oncology targets. Noetik is backed by DCVC. As of this profile the
+  company publishes no public API, developer portal, SDKs, or API documentation;
+  this record captures its public web and organizational surface for the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/noetik/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +34,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Biotechnology
+- Healthcare
+- Oncology
+- Foundation Models
+- Spatial Biology
+- Drug Discovery
+- Life Sciences
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 apis: []
+common:
+- type: Website
+  url: https://www.noetik.ai/
+- type: Blog
+  url: https://noetik.blog/
+- type: GitHubOrganization
+  url: https://github.com/Noetik-AI
+- type: TermsOfService
+  url: https://www.noetik.ai/terms-of-use
+- type: DomainSecurity
+  url: security/noetik-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
